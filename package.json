@@ -6,30 +6,23 @@
   "scripts": {
     "seed:dev": "nodemon ./db/seed.js",
     "seed": "node ./db/seed.js", 
-<<<<<<< HEAD
-    "start:dev": "nodemon index.js",
-    "start": "node index.js"
-=======
+
     "start": "node index.js",
     "start:dev": "nodemon index.js"
->>>>>>> 83780001867cd63c37a28cd1a78b28795d7962f9
+
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-<<<<<<< HEAD
-    "pg": "^8.8.0"
-=======
+    "pg": "^8.8.0",
     "body-parser": "^1.20.0",
     "dotenv": "^16.0.1",
     "express": "^4.18.1",
     "heroku": "^7.62.0",
     "jsonwebtoken": "^8.5.1",
     "morgan": "^1.10.0",
-    "pg": "^8.7.3",
     "volleyball": "^1.5.1"
->>>>>>> 83780001867cd63c37a28cd1a78b28795d7962f9
   },
   "devDependencies": {
     "nodemon": "^2.0.19"
